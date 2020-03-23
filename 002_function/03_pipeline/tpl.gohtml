@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>functions</title>
+</head>
+<body>
+{{.}}
+{{. | function_double}}
+{{. | function_double | function_square}}
+{{. | function_double | function_square | function_square_root}}
+
+</body>
+</html>
